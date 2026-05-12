@@ -2,10 +2,10 @@ import sqlite3
 import os
 
 # Статичные настройки (Токен остается в коде или выносится в .env бота)
-TOKEN = 'MTUwMzQxOTAyOTAyNzU1NzQyNg.Gu20t7.sibvCfvvxUyohcLORbBHgoKPiEzyWYREwpN7GQ'
+TOKEN = 
 
 # Абсолютный путь к единой БД Dashboard
-DB_PATH = r"C:\Users\adnan\source\repos\404srv\404_system.db"
+DB_PATH = 
 
 def get_dynamic_value(key: str, default_value):
     """Прямой запрос к базе данных при каждом вызове переменной."""
