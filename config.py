@@ -31,9 +31,9 @@ def __getattr__(name):
     Обеспечивает мгновенное применение настроек из веб-панели без перезагрузки бота.
     """
     defaults = {
-        "TARGET_ROLE_ID": 1503414541206290673,
-        "VOICE_CHANNEL_ID": 1503414991842185296,
-        "LOG_CHANNEL_ID": 1503425312409780344
+        "TARGET_ROLE_ID": 11111,
+        "VOICE_CHANNEL_ID": 11111,
+        "LOG_CHANNEL_ID": 11111
     }
     
     if name in defaults:
