@@ -3,9 +3,8 @@ import requests
 def send_ticket():
     url = "http://127.0.0.1:8000/api/moderation/tickets/create"
     
-    # ВАЖНО: Замени "ТВОЙ_DISCORD_ID" на свой реальный ID (набор цифр)
     payloads = [
-        {"user_id": "1014050100940652636", "content": "Тестовый прогон системы. Жду аппрува в панели."}
+        {"user_id": "ТВОЙ_DISCORD_ID", "content": "Тестовый прогон системы. Жду аппрува в панели."}
     ]
     
     for data in payloads:
